@@ -17,8 +17,6 @@ public class Patient {
         this.note = note;
     }
 
-
-
     public void setHistory(Archive history) {
         this.history = history;
     }
