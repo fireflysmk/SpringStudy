@@ -4,20 +4,11 @@
 
 <html>
 <body>
-<h1>Student Form Result</h1>
+<h1>Product Form Result</h1>
 <br>
-First name: ${student.firstName}
+title: ${product.title}
 <br>
-Last name: ${student.lastName}
+cost: ${product.cost}
 <br>
-Country: ${student.country}
-<br>
-Programming Languages:
-<br>
-<ul>
-    <c:forEach var="item" items="${student.programmingLanguages}">
-        <li>${item}</li>
-    </c:forEach>
-</ul>
 </body>
 </html>
